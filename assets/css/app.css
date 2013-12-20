@@ -1,9 +1,11 @@
 @charset "UTF-8";
+
+
 /* CSS Document */
 
 body {
 	background-image: url('../images/background3.jpg');
-	background-position:top left;
+	background-position: top left;
 	font-family: courier new;
 	font-weight: 100;
 	color: #666;
@@ -16,17 +18,14 @@ a {
 	text-decoration: none;
 }
 
-a:hover { 
+a:hover {
 	color: black;
-}
-
-img {
 }
 
 hr {
 	margin: 2.0em 0;
-	border-top:#666 1px dashed;
-	border-bottom:0px; 
+	border-top: #666 1px dashed;
+	border-bottom: 0px;
 }
 
 .details {
@@ -36,7 +35,8 @@ hr {
 	margin: 0 auto;
 	text-align: center;
 	border-bottom: #f6921e 2.0em solid;
-	box-shadow:1px 1px 5px #666;
+	box-shadow: 1px 1px 5px #666;
+	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
@@ -58,8 +58,11 @@ hr {
 	font-weight: 300;
 }
 
-.address, .contact {
+.address,
+.contact {
 	font-size: 1.4em;
 	line-height: 1.5;
 	font-weight: inherit;
+	/*margin-top: 0;*/
+	margin-bottom: 0;
 }
