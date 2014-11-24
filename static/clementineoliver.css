@@ -10707,7 +10707,7 @@ body {
   body .index-large-image {
     height: 600px;
     background: grey;
-    background: url("/assets/images/clementine_oliver_by_buttercupphotography_top_banner.jpg") center;
+    background: url("../assets/images/clementine_oliver_by_buttercupphotography_top_banner.jpg") center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
