@@ -2,10 +2,68 @@
 	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 	<meta name="description" content="{{ site.description }}">
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link rel="stylesheet" href="static/frequency-precision.css">
+	<meta name="viewport" content="width=device-width, initial-scale=0.5">
+	<link rel="stylesheet" href="static/clementineoliver.css">
 	
-	<script src="static/frequency-precision.js"></script>
+	<script src="static/clementineoliver.js"></script>
 	<script src="{{ site.url }}:35729/livereload.js"></script>
+	<!-- Typekit -->
+	<script src="//use.typekit.net/lqc8dmk.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+    <script>
+    smoothScroll.init();
+    </script>
+	<script type="text/javascript">
+
+        $(document).ready(function () {
+
+            var gutter = 20;
+
+            function cellSize(containerWidth) {
+                if (containerWidth > 1024) {
+                    var colNum = 6;
+                } else if (containerWidth > 768) {
+                    var colNum = 4;
+                } else {
+                    var colNum = 3;
+                }
+
+                return (containerWidth / colNum) - gutter;
+            }
+
+
+            var wall = new freewall("#freewall");
+            wall.reset({
+                selector: 'article',
+                animate: true,
+                cellW: cellSize,
+                cellH: 'auto',
+                
+                cache: false, // don't cache block size;
+                
+                gutterX: gutter,
+                gutterY: gutter,
+                onResize: function (container) {
+                    var containerWidth = container.width();
+                    
+                    if (containerWidth > 1024) {
+                        container.attr("class", "for6col");
+                    } else if (containerWidth > 768) {
+                        container.attr("class", "for4col");
+                    } else {
+                        container.attr("class", "for3col");
+                    }
+                    wall.fitWidth();
+                }
+            });
+
+            wall.fitWidth();
+            
+            wall.container.find('.block img').load(function () {
+                $(window).trigger("resize");
+            });
+
+
+        });
+    </script>
 </head>

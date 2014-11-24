@@ -38,7 +38,12 @@ module.exports = function(grunt) {
 
 
 					// Custom
-					'<%= path.js %>/<%= pkg.name %>.js'
+					'<%= path.js %>/<%= pkg.name %>.js', 
+					//freewall
+					'<%= path.js %>/jquery-1.10.2.min.js',
+					'<%= path.js %>/freewall.js',
+					'<%= path.js %>/smooth-scroll.js', 
+					'<%= path.js %>/lightbox.min.js', 
 				],
 				dest: 'temp/<%= pkg.name %>-build.js',
 			},
@@ -133,4 +138,5 @@ module.exports = function(grunt) {
 	grunt.registerTask('css', ['sass:dev']);
 	grunt.registerTask('html', ['jekyll:dev']);
 	grunt.registerTask('js', ['jshint', 'concat:dev', 'uglify:dev']);
+	grunt.registerTask('dev', ['css','html']);
 };

@@ -1,7 +1,7 @@
 # Site settings
-title: Frequency Precision
-description: Frequency Precision website...
-url: "http://frequency-precision" # the base hostname & protocol for your site
+title: Clementine Oliver
+description: Clementine Oliver
+url: "http://clementineoliver" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
