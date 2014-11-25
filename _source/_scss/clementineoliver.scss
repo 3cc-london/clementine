@@ -237,11 +237,16 @@ body
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+	}
 
-		.row 
-		{
-
-		}
+	.index-large-image-mob
+	{
+		height: 400px;
+		background: url('#{$assets}/mobile/clementine_oliver_by_buttercupphotography_top_banner.jpg') center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 	.index-about
