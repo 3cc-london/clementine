@@ -10855,199 +10855,203 @@ body {
       body .footer p span {
         padding-left: 20px;
         padding-right: 20px; }
+    /* line 453, _scss/clementineoliver.scss */
+    body .footer a:link, body .footer a:visited, body .footer a:hover, body .footer a:active {
+      text-decoration: none;
+      color: #fffaf5; }
 
 @media screen and (max-width: 1024px) {
-  /* line 457, _scss/clementineoliver.scss */
+  /* line 464, _scss/clementineoliver.scss */
   h1, h2 {
     font-size: 1.4rem !important; }
 
-  /* line 462, _scss/clementineoliver.scss */
+  /* line 469, _scss/clementineoliver.scss */
   p {
     font-size: 1.0rem !important; }
 
-  /* line 467, _scss/clementineoliver.scss */
+  /* line 474, _scss/clementineoliver.scss */
   h2 {
     padding: 0px !important;
     margin: 0px !important; }
 
-  /* line 473, _scss/clementineoliver.scss */
+  /* line 480, _scss/clementineoliver.scss */
   .orangebutton {
     font-size: 1.2rem !important; }
 
-  /* line 479, _scss/clementineoliver.scss */
+  /* line 486, _scss/clementineoliver.scss */
   .medium-12 {
     padding-left: 60px !important;
     padding-right: 60px !important; }
 
-  /* line 485, _scss/clementineoliver.scss */
+  /* line 492, _scss/clementineoliver.scss */
   .rowpadding {
     padding-bottom: 30px; }
 
-  /* line 491, _scss/clementineoliver.scss */
+  /* line 498, _scss/clementineoliver.scss */
   .desktop-content {
     display: none; }
 
-  /* line 496, _scss/clementineoliver.scss */
+  /* line 503, _scss/clementineoliver.scss */
   .mobile-content {
     display: block !important; }
-    /* line 499, _scss/clementineoliver.scss */
+    /* line 506, _scss/clementineoliver.scss */
     .mobile-content .link {
       color: #f7941e;
       text-decoration: none;
       font-size: 1.2rem;
       padding-bottom: 10px; }
-      /* line 505, _scss/clementineoliver.scss */
+      /* line 512, _scss/clementineoliver.scss */
       .mobile-content .link:hover {
         cursor: pointer; }
-    /* line 512, _scss/clementineoliver.scss */
+    /* line 519, _scss/clementineoliver.scss */
     .mobile-content .mob-about-slide-up {
       display: none; }
 
-  /* line 523, _scss/clementineoliver.scss */
+  /* line 530, _scss/clementineoliver.scss */
   .indexheader .menubackground {
     height: 90px !important; }
-  /* line 531, _scss/clementineoliver.scss */
+  /* line 538, _scss/clementineoliver.scss */
   .indexheader .menu ul {
     margin-top: 50px;
     text-align: right; }
-    /* line 536, _scss/clementineoliver.scss */
+    /* line 543, _scss/clementineoliver.scss */
     .indexheader .menu ul li {
       font-size: 1.0rem !important; }
-  /* line 545, _scss/clementineoliver.scss */
+  /* line 552, _scss/clementineoliver.scss */
   .indexheader .menu .logo img {
     width: 120px !important;
     height: 120px !important;
     margin-top: 40px !important; }
 
-  /* line 555, _scss/clementineoliver.scss */
+  /* line 562, _scss/clementineoliver.scss */
   .fullwidth-center {
     width: 100%;
     text-align: center; }
 
-  /* line 561, _scss/clementineoliver.scss */
+  /* line 568, _scss/clementineoliver.scss */
   .index-large-image {
     height: 600px !important; }
 
-  /* line 566, _scss/clementineoliver.scss */
+  /* line 573, _scss/clementineoliver.scss */
   .index-about {
     padding-bottom: 50px !important; }
-    /* line 570, _scss/clementineoliver.scss */
+    /* line 577, _scss/clementineoliver.scss */
     .index-about .mobile-about {
       display: none; }
-    /* line 575, _scss/clementineoliver.scss */
+    /* line 582, _scss/clementineoliver.scss */
     .index-about .hello {
       width: 100px !important; }
-    /* line 580, _scss/clementineoliver.scss */
+    /* line 587, _scss/clementineoliver.scss */
     .index-about img {
       width: 100px !important;
       height: 100px !important; }
 
-  /* line 588, _scss/clementineoliver.scss */
+  /* line 595, _scss/clementineoliver.scss */
   .index-gallery {
     padding-top: 10px;
     padding-bottom: 10px; }
-    /* line 594, _scss/clementineoliver.scss */
+    /* line 601, _scss/clementineoliver.scss */
     .index-gallery .images {
       margin: 0px !important;
       padding-top: 20px; }
-    /* line 600, _scss/clementineoliver.scss */
+    /* line 607, _scss/clementineoliver.scss */
     .index-gallery .gallery-image {
       width: 175px !important;
       margin-top: -45px !important; }
-      /* line 605, _scss/clementineoliver.scss */
+      /* line 612, _scss/clementineoliver.scss */
       .index-gallery .gallery-image img {
         width: 175px !important; }
-    /* line 611, _scss/clementineoliver.scss */
+    /* line 618, _scss/clementineoliver.scss */
     .index-gallery .orange-image {
       width: 80px !important;
       margin-top: -50px !important; }
-      /* line 616, _scss/clementineoliver.scss */
+      /* line 623, _scss/clementineoliver.scss */
       .index-gallery .orange-image img {
         width: 80px !important; }
 
-  /* line 626, _scss/clementineoliver.scss */
+  /* line 633, _scss/clementineoliver.scss */
   .index-samples .sample {
     text-align: center; }
-    /* line 630, _scss/clementineoliver.scss */
+    /* line 637, _scss/clementineoliver.scss */
     .index-samples .sample img {
       position: relative !important;
       margin-top: -130px !important; }
-  /* line 637, _scss/clementineoliver.scss */
+  /* line 644, _scss/clementineoliver.scss */
   .index-samples .orangebutton {
     margin-top: 10px; }
 
-  /* line 645, _scss/clementineoliver.scss */
+  /* line 652, _scss/clementineoliver.scss */
   .index-contact .medium-12, .index-contact .small-12 {
     text-align: center; }
-  /* line 650, _scss/clementineoliver.scss */
+  /* line 657, _scss/clementineoliver.scss */
   .index-contact .toppadding {
     padding-top: 20px; }
 
-  /* line 658, _scss/clementineoliver.scss */
+  /* line 665, _scss/clementineoliver.scss */
   .footer p {
     font-size: 0.7rem !important; } }
 @media only screen and (max-width: 40em) {
-  /* line 671, _scss/clementineoliver.scss */
+  /* line 678, _scss/clementineoliver.scss */
   .mobile-content .link {
     font-size: 1.0rem; }
 
-  /* line 678, _scss/clementineoliver.scss */
+  /* line 685, _scss/clementineoliver.scss */
   .topbottompadding {
     padding-top: 20px !important;
     padding-bottom: 20px !important; }
 
-  /* line 684, _scss/clementineoliver.scss */
+  /* line 691, _scss/clementineoliver.scss */
   h1 {
     padding-top: 10px !important;
     margin: 0px; }
 
-  /* line 690, _scss/clementineoliver.scss */
+  /* line 697, _scss/clementineoliver.scss */
   h1, h2 {
     font-size: 1.2rem !important; }
 
-  /* line 695, _scss/clementineoliver.scss */
+  /* line 702, _scss/clementineoliver.scss */
   h2 {
     padding-bottom: 0px !important; }
 
-  /* line 700, _scss/clementineoliver.scss */
+  /* line 707, _scss/clementineoliver.scss */
   p {
     font-size: 1rem !important; }
 
-  /* line 707, _scss/clementineoliver.scss */
+  /* line 714, _scss/clementineoliver.scss */
   .indexheader .menubackground {
     height: 75px !important; }
-  /* line 716, _scss/clementineoliver.scss */
+  /* line 723, _scss/clementineoliver.scss */
   .indexheader .menu .logo img {
     width: 100px !important;
     height: 100px !important;
     margin-top: 55px !important; }
 
-  /* line 726, _scss/clementineoliver.scss */
+  /* line 733, _scss/clementineoliver.scss */
   .index-large-image {
     height: 300px !important; }
 
-  /* line 733, _scss/clementineoliver.scss */
+  /* line 740, _scss/clementineoliver.scss */
   .index-contact p {
     font-size: 1rem !important; }
 
-  /* line 741, _scss/clementineoliver.scss */
+  /* line 748, _scss/clementineoliver.scss */
   .footer p {
     font-size: 0.7rem !important; }
 
-  /* line 749, _scss/clementineoliver.scss */
+  /* line 756, _scss/clementineoliver.scss */
   .index-about .rowpadding {
     padding-bottom: 50px; }
 
-  /* line 759, _scss/clementineoliver.scss */
+  /* line 766, _scss/clementineoliver.scss */
   .index-gallery .images img {
     margin-top: 10px !important;
     width: 100px !important;
     height: 100px !important; }
-  /* line 768, _scss/clementineoliver.scss */
+  /* line 775, _scss/clementineoliver.scss */
   .index-gallery .lines {
     height: 8px !important; }
 
-  /* line 778, _scss/clementineoliver.scss */
+  /* line 785, _scss/clementineoliver.scss */
   .index-samples .sample img {
     margin-top: -100px !important;
     width: 350px !important;
