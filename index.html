@@ -76,138 +76,30 @@ layout: boilerplate
 	<div class="row">
 		<div class="small-12 large-12 columns images">
 			<div id="freewall">
-			        <article>
-			            <div class="block">
-			            	<div class="entry-content mobile-content">
-			                    <a href="assets/images/mobile/1024px_clementine_oliver_by_buttercupphotography_1.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/150px_clementine_thumb_1.jpg"/></a>
+				<div class="mobile-content">
+					{% for image in site.data.gallery.gallery %}
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/{{ image.name }}" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/{{ image.name }}"/></a>
+			                	</div>
 			                </div>
+			            </article>
+					{% endfor %}
+				</div>
 
-			                <div class="entry-content desktop-content">
-			                    <a href="assets/images/clementine_oliver_by_buttercupphotography_1.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/600px_clementine_thumb_1.jpg"/></a>
+				<div class="desktop-content">
+					{% for image in site.data.gallery.gallery %}
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/{{ image.name }}" data-lightbox="image-1"><img src="assets/images/thumbs/{{ image.name }}"/></a>
+			                	</div>
 			                </div>
-			            </div>
-			        </article>
-			         <article>
-			            <div class="block">
-			            	<div class="entry-content mobile-content">
-			                    <a href="assets/images/mobile/1024px_clementine_oliver_by_buttercupphotography_2.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/150px_clementine_thumb_2.jpg"/></a>
-			                </div>
+			            </article>
+					{% endfor %}
+				</div>
 
-			                <div class="entry-content desktop-content">
-			                    <a href="assets/images/clementine_oliver_by_buttercupphotography_2.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/600px_clementine_thumb_2.jpg"/></a>
-			                </div>
-			            </div>
-			        </article>
-			                <article>
-			            <div class="block">
-			            	<div class="entry-content mobile-content">
-			                    <a href="assets/images/mobile/1024px_clementine_oliver_by_buttercupphotography_3.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/150px_clementine_thumb_3.jpg"/></a>
-			                </div>
-
-			                <div class="entry-content desktop-content">
-			                    <a href="assets/images/clementine_oliver_by_buttercupphotography_3.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/600px_clementine_thumb_3.jpg"/></a>
-			                </div>
-			            </div>
-			        </article>
-			                <article>
-			            <div class="block">
-			            	<div class="entry-content mobile-content">
-			                    <a href="assets/images/mobile/1024px_clementine_oliver_by_buttercupphotography_4.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/150px_clementine_thumb_4.jpg"/></a>
-			                </div>
-
-			                <div class="entry-content desktop-content">
-			                    <a href="assets/images/clementine_oliver_by_buttercupphotography_4.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/600px_clementine_thumb_4.jpg"/></a>
-			                </div>
-			            </div>
-			        </article>
-			                <article>
-			            <div class="block">
-			            	<div class="entry-content mobile-content">
-			                    <a href="assets/images/mobile/1024px_clementine_oliver_by_buttercupphotography_5.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/150px_clementine_thumb_5.jpg"/></a>
-			                </div>
-
-			                <div class="entry-content desktop-content">
-			                    <a href="assets/images/clementine_oliver_by_buttercupphotography_5.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/600px_clementine_thumb_5.jpg"/></a>
-			                </div>
-			            </div>
-			        </article>
-			                <article>
-			            <div class="block">
-			            	<div class="entry-content mobile-content">
-			                    <a href="assets/images/mobile/1024px_clementine_oliver_by_buttercupphotography_6.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/150px_clementine_thumb_6.jpg"/></a>
-			                </div>
-
-			                <div class="entry-content desktop-content">
-			                    <a href="assets/images/clementine_oliver_by_buttercupphotography_6.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/600px_clementine_thumb_6.jpg"/></a>
-			                </div>
-			            </div>
-			        </article>
-			                <article>
-			            <div class="block">
-				            	<div class="entry-content mobile-content">
-			                    <a href="assets/images/mobile/1024px_clementine_oliver_by_buttercupphotography_7.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/150px_clementine_thumb_7.jpg"/></a>
-			                </div>
-
-			                <div class="entry-content desktop-content">
-			                    <a href="assets/images/clementine_oliver_by_buttercupphotography_7.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/600px_clementine_thumb_7.jpg"/></a>
-			                </div>
-			            </div>
-			        </article>
-			                <article>
-			            <div class="block">
-			            	<div class="entry-content mobile-content">
-			                    <a href="assets/images/mobile/1024px_clementine_oliver_by_buttercupphotography_8.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/150px_clementine_thumb_8.jpg"/></a>
-			                </div>
-
-			                <div class="entry-content desktop-content">
-			                    <a href="assets/images/clementine_oliver_by_buttercupphotography_8.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/600px_clementine_thumb_8.jpg"/></a>
-			                </div>
-			            </div>
-			        </article>
-			                <article>
-			            <div class="block">
-					            	<div class="entry-content mobile-content">
-			                    <a href="assets/images/mobile/1024px_clementine_oliver_by_buttercupphotography_9.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/150px_clementine_thumb_9.jpg"/></a>
-			                </div>
-
-			                <div class="entry-content desktop-content">
-			                    <a href="assets/images/clementine_oliver_by_buttercupphotography_9.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/600px_clementine_thumb_9.jpg"/></a>
-			                </div>
-			            </div>
-			        </article>
-			                <article>
-			            <div class="block">
-			            	<div class="entry-content mobile-content">
-			                    <a href="assets/images/mobile/1024px_clementine_oliver_by_buttercupphotography_10.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/150px_clementine_thumb_10.jpg"/></a>
-			                </div>
-
-			                <div class="entry-content desktop-content">
-			                    <a href="assets/images/clementine_oliver_by_buttercupphotography_10.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/600px_clementine_thumb_10.jpg"/></a>
-			                </div>
-			            </div>
-			        </article>
-			                <article>
-			            <div class="block">
-			            	<div class="entry-content mobile-content">
-			                    <a href="assets/images/mobile/1024px_clementine_oliver_by_buttercupphotography_11.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/150px_clementine_thumb_11.jpg"/></a>
-			                </div>
-
-			                <div class="entry-content desktop-content">
-			                    <a href="assets/images/clementine_oliver_by_buttercupphotography_11.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/600px_clementine_thumb_11.jpg"/></a>
-			                </div>
-			            </div>
-			        </article>
-			                <article>
-			            <div class="block">
-			            	<div class="entry-content mobile-content">
-			                    <a href="assets/images/mobile/1024px_clementine_oliver_by_buttercupphotography_12.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/150px_clementine_thumb_12.jpg"/></a>
-			                </div>
-
-			                <div class="entry-content desktop-content">
-			                    <a href="assets/images/clementine_oliver_by_buttercupphotography_12.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/600px_clementine_thumb_12.jpg"/></a>
-			                </div>
-			            </div>
-			        </article>
 			 </div>
 		</div>
 	</div>
