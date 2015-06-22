@@ -10707,61 +10707,69 @@ body {
   body .index-large-image {
     height: 600px;
     background: grey;
-    background: url("/assets/images/clementine_oliver_by_buttercupphotography_top_banner.jpg") center;
+    background: url("../assets/images/clementine_oliver_by_buttercupphotography_top_banner.jpg") center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
-  /* line 248, _scss/clementineoliver.scss */
+  /* line 243, _scss/clementineoliver.scss */
+  body .index-large-image-mob {
+    height: 400px;
+    background: url("../assets/images/mobile/clementine_oliver_by_buttercupphotography_top_banner.jpg") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  /* line 253, _scss/clementineoliver.scss */
   body .index-about {
     padding-bottom: 40px; }
-    /* line 252, _scss/clementineoliver.scss */
+    /* line 257, _scss/clementineoliver.scss */
     body .index-about .hello {
       width: 150px;
       margin-left: auto;
       margin-right: auto; }
-    /* line 259, _scss/clementineoliver.scss */
+    /* line 264, _scss/clementineoliver.scss */
     body .index-about img {
       width: 150px;
       height: 150px; }
-    /* line 265, _scss/clementineoliver.scss */
+    /* line 270, _scss/clementineoliver.scss */
     body .index-about .rowpadding {
       margin: auto !important; }
-  /* line 272, _scss/clementineoliver.scss */
+  /* line 277, _scss/clementineoliver.scss */
   body .index-samples {
     width: 100%;
     background: #666666; }
-    /* line 277, _scss/clementineoliver.scss */
+    /* line 282, _scss/clementineoliver.scss */
     body .index-samples h1 {
       margin-top: 0px;
       padding-top: 0px;
       text-align: left;
       color: #fffaf5; }
-    /* line 285, _scss/clementineoliver.scss */
+    /* line 290, _scss/clementineoliver.scss */
     body .index-samples p {
       color: #fffaf5;
       line-height: 140%;
       letter-spacing: 0.03em; }
-    /* line 294, _scss/clementineoliver.scss */
+    /* line 299, _scss/clementineoliver.scss */
     body .index-samples .sample img {
       position: absolute;
       margin-top: -100px;
       max-width: 500px; }
-  /* line 303, _scss/clementineoliver.scss */
+  /* line 308, _scss/clementineoliver.scss */
   body .index-gallery {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px; }
-    /* line 310, _scss/clementineoliver.scss */
+    /* line 315, _scss/clementineoliver.scss */
     body .index-gallery .gallery {
       margin-top: 40px; }
-      /* line 314, _scss/clementineoliver.scss */
+      /* line 319, _scss/clementineoliver.scss */
       body .index-gallery .gallery .lines {
         width: 100%;
         height: 8px;
         border-bottom: 2px solid #666666;
         border-top: 2px solid #666666; }
-      /* line 322, _scss/clementineoliver.scss */
+      /* line 327, _scss/clementineoliver.scss */
       body .index-gallery .gallery .gallery-image {
         width: 200px;
         margin-left: auto;
@@ -10769,47 +10777,47 @@ body {
         background: #fffaf5;
         margin-top: -45px;
         padding: 15px; }
-        /* line 331, _scss/clementineoliver.scss */
+        /* line 336, _scss/clementineoliver.scss */
         body .index-gallery .gallery .gallery-image img {
           width: 200px;
           height: auto; }
-    /* line 340, _scss/clementineoliver.scss */
+    /* line 345, _scss/clementineoliver.scss */
     body .index-gallery .images {
       margin-top: 20px;
       margin-bottom: 20px; }
-      /* line 345, _scss/clementineoliver.scss */
+      /* line 350, _scss/clementineoliver.scss */
       body .index-gallery .images article {
         float: left;
         overflow: hidden;
         text-align: center; }
-      /* line 350, _scss/clementineoliver.scss */
+      /* line 355, _scss/clementineoliver.scss */
       body .index-gallery .images img {
         width: 160px;
         height: 160px;
         border-radius: 50%;
         margin-bottom: 20px; }
-      /* line 356, _scss/clementineoliver.scss */
+      /* line 361, _scss/clementineoliver.scss */
       body .index-gallery .images .for6col article {
         width: 16.66%; }
-      /* line 359, _scss/clementineoliver.scss */
+      /* line 364, _scss/clementineoliver.scss */
       body .index-gallery .images .for4col article {
         width: 25%; }
-      /* line 362, _scss/clementineoliver.scss */
+      /* line 367, _scss/clementineoliver.scss */
       body .index-gallery .images .for3col article {
         width: 33%; }
-      /* line 365, _scss/clementineoliver.scss */
+      /* line 370, _scss/clementineoliver.scss */
       body .index-gallery .images .for2col article {
         width: 50%; }
-    /* line 374, _scss/clementineoliver.scss */
+    /* line 379, _scss/clementineoliver.scss */
     body .index-gallery .orange {
       margin-top: 40px; }
-      /* line 378, _scss/clementineoliver.scss */
+      /* line 383, _scss/clementineoliver.scss */
       body .index-gallery .orange .lines {
         width: 100%;
         height: 8px;
         border-bottom: 2px solid #666666;
         border-top: 2px solid #666666; }
-      /* line 386, _scss/clementineoliver.scss */
+      /* line 391, _scss/clementineoliver.scss */
       body .index-gallery .orange .orange-image {
         width: 80px;
         margin-left: auto;
@@ -10817,237 +10825,241 @@ body {
         background: #fffaf5;
         margin-top: -50px;
         padding: 15px; }
-        /* line 395, _scss/clementineoliver.scss */
+        /* line 400, _scss/clementineoliver.scss */
         body .index-gallery .orange .orange-image img {
           width: 80px;
           height: auto; }
-  /* line 405, _scss/clementineoliver.scss */
+  /* line 410, _scss/clementineoliver.scss */
   body .index-contact {
     width: 100%;
     background: #f7941e; }
-    /* line 410, _scss/clementineoliver.scss */
+    /* line 415, _scss/clementineoliver.scss */
     body .index-contact .large-6 {
       padding-right: 50px; }
-    /* line 416, _scss/clementineoliver.scss */
+    /* line 421, _scss/clementineoliver.scss */
     body .index-contact h2 {
       color: #666666;
       padding-bottom: 10px; }
-    /* line 422, _scss/clementineoliver.scss */
+    /* line 427, _scss/clementineoliver.scss */
     body .index-contact p {
       color: #fffaf5;
       margin: 2px;
       padding: 2px;
       line-height: 140%;
       font-size: 1rem !important; }
-  /* line 432, _scss/clementineoliver.scss */
+  /* line 437, _scss/clementineoliver.scss */
   body .footer {
     width: 100%;
     background: #666666;
     padding: 10px; }
-    /* line 438, _scss/clementineoliver.scss */
+    /* line 443, _scss/clementineoliver.scss */
     body .footer p {
       color: #fffaf5;
       font-size: 0.8rem;
       text-align: center;
       padding: 0px;
       margin: 0px; }
-      /* line 446, _scss/clementineoliver.scss */
+      /* line 451, _scss/clementineoliver.scss */
       body .footer p span {
         padding-left: 20px;
         padding-right: 20px; }
+    /* line 458, _scss/clementineoliver.scss */
+    body .footer a:link, body .footer a:visited, body .footer a:hover, body .footer a:active {
+      text-decoration: none;
+      color: #fffaf5; }
 
 @media screen and (max-width: 1024px) {
-  /* line 457, _scss/clementineoliver.scss */
+  /* line 469, _scss/clementineoliver.scss */
   h1, h2 {
     font-size: 1.4rem !important; }
 
-  /* line 462, _scss/clementineoliver.scss */
+  /* line 474, _scss/clementineoliver.scss */
   p {
     font-size: 1.0rem !important; }
 
-  /* line 467, _scss/clementineoliver.scss */
+  /* line 479, _scss/clementineoliver.scss */
   h2 {
     padding: 0px !important;
     margin: 0px !important; }
 
-  /* line 473, _scss/clementineoliver.scss */
+  /* line 485, _scss/clementineoliver.scss */
   .orangebutton {
     font-size: 1.2rem !important; }
 
-  /* line 479, _scss/clementineoliver.scss */
+  /* line 491, _scss/clementineoliver.scss */
   .medium-12 {
     padding-left: 60px !important;
     padding-right: 60px !important; }
 
-  /* line 485, _scss/clementineoliver.scss */
+  /* line 497, _scss/clementineoliver.scss */
   .rowpadding {
     padding-bottom: 30px; }
 
-  /* line 491, _scss/clementineoliver.scss */
+  /* line 503, _scss/clementineoliver.scss */
   .desktop-content {
     display: none; }
 
-  /* line 496, _scss/clementineoliver.scss */
+  /* line 508, _scss/clementineoliver.scss */
   .mobile-content {
     display: block !important; }
-    /* line 499, _scss/clementineoliver.scss */
+    /* line 511, _scss/clementineoliver.scss */
     .mobile-content .link {
       color: #f7941e;
       text-decoration: none;
       font-size: 1.2rem;
       padding-bottom: 10px; }
-      /* line 505, _scss/clementineoliver.scss */
+      /* line 517, _scss/clementineoliver.scss */
       .mobile-content .link:hover {
         cursor: pointer; }
-    /* line 512, _scss/clementineoliver.scss */
+    /* line 524, _scss/clementineoliver.scss */
     .mobile-content .mob-about-slide-up {
       display: none; }
 
-  /* line 523, _scss/clementineoliver.scss */
+  /* line 535, _scss/clementineoliver.scss */
   .indexheader .menubackground {
     height: 90px !important; }
-  /* line 531, _scss/clementineoliver.scss */
+  /* line 543, _scss/clementineoliver.scss */
   .indexheader .menu ul {
     margin-top: 50px;
     text-align: right; }
-    /* line 536, _scss/clementineoliver.scss */
+    /* line 548, _scss/clementineoliver.scss */
     .indexheader .menu ul li {
       font-size: 1.0rem !important; }
-  /* line 545, _scss/clementineoliver.scss */
+  /* line 557, _scss/clementineoliver.scss */
   .indexheader .menu .logo img {
     width: 120px !important;
     height: 120px !important;
     margin-top: 40px !important; }
 
-  /* line 555, _scss/clementineoliver.scss */
+  /* line 567, _scss/clementineoliver.scss */
   .fullwidth-center {
     width: 100%;
     text-align: center; }
 
-  /* line 561, _scss/clementineoliver.scss */
+  /* line 573, _scss/clementineoliver.scss */
   .index-large-image {
     height: 600px !important; }
 
-  /* line 566, _scss/clementineoliver.scss */
+  /* line 578, _scss/clementineoliver.scss */
   .index-about {
     padding-bottom: 50px !important; }
-    /* line 570, _scss/clementineoliver.scss */
+    /* line 582, _scss/clementineoliver.scss */
     .index-about .mobile-about {
       display: none; }
-    /* line 575, _scss/clementineoliver.scss */
+    /* line 587, _scss/clementineoliver.scss */
     .index-about .hello {
       width: 100px !important; }
-    /* line 580, _scss/clementineoliver.scss */
+    /* line 592, _scss/clementineoliver.scss */
     .index-about img {
       width: 100px !important;
       height: 100px !important; }
 
-  /* line 588, _scss/clementineoliver.scss */
+  /* line 600, _scss/clementineoliver.scss */
   .index-gallery {
     padding-top: 10px;
     padding-bottom: 10px; }
-    /* line 594, _scss/clementineoliver.scss */
+    /* line 606, _scss/clementineoliver.scss */
     .index-gallery .images {
       margin: 0px !important;
       padding-top: 20px; }
-    /* line 600, _scss/clementineoliver.scss */
+    /* line 612, _scss/clementineoliver.scss */
     .index-gallery .gallery-image {
       width: 175px !important;
       margin-top: -45px !important; }
-      /* line 605, _scss/clementineoliver.scss */
+      /* line 617, _scss/clementineoliver.scss */
       .index-gallery .gallery-image img {
         width: 175px !important; }
-    /* line 611, _scss/clementineoliver.scss */
+    /* line 623, _scss/clementineoliver.scss */
     .index-gallery .orange-image {
       width: 80px !important;
       margin-top: -50px !important; }
-      /* line 616, _scss/clementineoliver.scss */
+      /* line 628, _scss/clementineoliver.scss */
       .index-gallery .orange-image img {
         width: 80px !important; }
 
-  /* line 626, _scss/clementineoliver.scss */
+  /* line 638, _scss/clementineoliver.scss */
   .index-samples .sample {
     text-align: center; }
-    /* line 630, _scss/clementineoliver.scss */
+    /* line 642, _scss/clementineoliver.scss */
     .index-samples .sample img {
       position: relative !important;
       margin-top: -130px !important; }
-  /* line 637, _scss/clementineoliver.scss */
+  /* line 649, _scss/clementineoliver.scss */
   .index-samples .orangebutton {
     margin-top: 10px; }
 
-  /* line 645, _scss/clementineoliver.scss */
+  /* line 657, _scss/clementineoliver.scss */
   .index-contact .medium-12, .index-contact .small-12 {
     text-align: center; }
-  /* line 650, _scss/clementineoliver.scss */
+  /* line 662, _scss/clementineoliver.scss */
   .index-contact .toppadding {
     padding-top: 20px; }
 
-  /* line 658, _scss/clementineoliver.scss */
+  /* line 670, _scss/clementineoliver.scss */
   .footer p {
     font-size: 0.7rem !important; } }
 @media only screen and (max-width: 40em) {
-  /* line 671, _scss/clementineoliver.scss */
+  /* line 683, _scss/clementineoliver.scss */
   .mobile-content .link {
     font-size: 1.0rem; }
 
-  /* line 678, _scss/clementineoliver.scss */
+  /* line 690, _scss/clementineoliver.scss */
   .topbottompadding {
     padding-top: 20px !important;
     padding-bottom: 20px !important; }
 
-  /* line 684, _scss/clementineoliver.scss */
+  /* line 696, _scss/clementineoliver.scss */
   h1 {
     padding-top: 10px !important;
     margin: 0px; }
 
-  /* line 690, _scss/clementineoliver.scss */
+  /* line 702, _scss/clementineoliver.scss */
   h1, h2 {
     font-size: 1.2rem !important; }
 
-  /* line 695, _scss/clementineoliver.scss */
+  /* line 707, _scss/clementineoliver.scss */
   h2 {
     padding-bottom: 0px !important; }
 
-  /* line 700, _scss/clementineoliver.scss */
+  /* line 712, _scss/clementineoliver.scss */
   p {
     font-size: 1rem !important; }
 
-  /* line 707, _scss/clementineoliver.scss */
+  /* line 719, _scss/clementineoliver.scss */
   .indexheader .menubackground {
     height: 75px !important; }
-  /* line 716, _scss/clementineoliver.scss */
+  /* line 728, _scss/clementineoliver.scss */
   .indexheader .menu .logo img {
     width: 100px !important;
     height: 100px !important;
     margin-top: 55px !important; }
 
-  /* line 726, _scss/clementineoliver.scss */
+  /* line 738, _scss/clementineoliver.scss */
   .index-large-image {
     height: 300px !important; }
 
-  /* line 733, _scss/clementineoliver.scss */
+  /* line 745, _scss/clementineoliver.scss */
   .index-contact p {
     font-size: 1rem !important; }
 
-  /* line 741, _scss/clementineoliver.scss */
+  /* line 753, _scss/clementineoliver.scss */
   .footer p {
     font-size: 0.7rem !important; }
 
-  /* line 749, _scss/clementineoliver.scss */
+  /* line 761, _scss/clementineoliver.scss */
   .index-about .rowpadding {
     padding-bottom: 50px; }
 
-  /* line 759, _scss/clementineoliver.scss */
+  /* line 771, _scss/clementineoliver.scss */
   .index-gallery .images img {
     margin-top: 10px !important;
     width: 100px !important;
     height: 100px !important; }
-  /* line 768, _scss/clementineoliver.scss */
+  /* line 780, _scss/clementineoliver.scss */
   .index-gallery .lines {
     height: 8px !important; }
 
-  /* line 778, _scss/clementineoliver.scss */
+  /* line 790, _scss/clementineoliver.scss */
   .index-samples .sample img {
     margin-top: -100px !important;
     width: 350px !important;

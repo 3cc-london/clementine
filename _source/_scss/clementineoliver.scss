@@ -74,7 +74,7 @@ $fa-font-path: "static/font" !default; // Override Font
 
 @import "lightbox";
 
-$assets : "/assets/images";
+$assets : "../assets/images";
 $grey : #666666;
 $orange: #f7941e; 
 $white: #FFFAF5;
@@ -237,11 +237,16 @@ body
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+	}
 
-		.row 
-		{
-
-		}
+	.index-large-image-mob
+	{
+		height: 400px;
+		background: url('#{$assets}/mobile/clementine_oliver_by_buttercupphotography_top_banner.jpg') center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 	.index-about
@@ -448,6 +453,13 @@ body
 				padding-right:20px;
 			}
 		}
+
+			a:link, a:visited, a:hover, a:active 
+		{
+			text-decoration: none;
+			color: $white;
+		}
+
 	}
 }
 
