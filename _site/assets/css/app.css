@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+
+/* CSS Document */
+
+body {
+	background-image: url('../images/background3.jpg');
+	background-position: top left;
+	font-family: courier new;
+	font-weight: 100;
+	color: #666;
+	font-size: 62.5%;
+}
+
+a {
+	font-weight: 100;
+	color: #f6921e;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+hr {
+	margin: 2.0em 0;
+	border-top: #666 1px dashed;
+	border-bottom: 0px;
+}
+
+.details {
+	max-width: 260px;
+	background-color: white;
+	padding: 2.0em;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: #f6921e 2.0em solid;
+	box-shadow: 1px 1px 5px #666;
+/*	-webkit-transition: all 0.3s;
+	transition: all 0.3s;*/
+}
+
+@media screen and (min-width: 400px) {
+	.details {
+		margin-left: 5%;
+		margin-right: 0;
+	}
+}
+
+.logo {
+	margin: 1.5em 0;
+	width: 200px;
+}
+
+.tagline {
+	font-size: 1.6em;
+	line-height: 1.5;
+	font-weight: 300;
+}
+
+.address,
+.contact {
+	font-size: 1.4em;
+	line-height: 1.5;
+	font-weight: inherit;
+	/*margin-top: 0;*/
+	margin-bottom: 0;
+}

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	<head>
+	<title>Clementine Oliver - Fabrics for Interiors</title>
+	<meta name="description" content="Fabrics for Interiors - Wool/Linen/Cashmere">
+	<meta charset="utf-8">
+	<meta name="viewport" content="min-width, initial-scale=0.8">
+	<link rel="stylesheet" href="static/clementineoliver.css">
+	
+	<script src="static/clementineoliver.js"></script>
+	<script src="http://clementineoliver:35729/livereload.js"></script>
+	<!-- Typekit -->
+	<script src="//use.typekit.net/lqc8dmk.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+    <script>
+    smoothScroll.init();
+    </script>
+	<script type="text/javascript">
+
+        $(document).ready(function () {
+
+            var gutter = 20;
+
+            function cellSize(containerWidth) {
+                if (containerWidth > 1024) {
+                    var colNum = 6;
+                } else if (containerWidth > 768) {
+                    var colNum = 4;
+                } else {
+                    var colNum = 3;
+                }
+
+                return (containerWidth / colNum) - gutter;
+            }
+
+
+            var wall = new freewall("#freewall");
+            wall.reset({
+                selector: 'article',
+                animate: true,
+                cellW: cellSize,
+                cellH: 'auto',
+                
+                cache: false, // don't cache block size;
+                
+                gutterX: gutter,
+                gutterY: gutter,
+                onResize: function (container) {
+                    var containerWidth = container.width();
+                    
+                    if (containerWidth > 1024) {
+                        container.attr("class", "for6col");
+                    } else if (containerWidth > 768) {
+                        container.attr("class", "for4col");
+                    } else {
+                        container.attr("class", "for3col");
+                    }
+                    wall.fitWidth();
+                }
+            });
+
+            wall.fitWidth();
+            
+            wall.container.find('.block img').load(function () {
+                $(window).trigger("resize");
+            });
+
+        });
+    </script>
+</head>
+	<body>
+		<div class="indexheader">
+	<div class="menubackground"></div>
+	<div class="row menu">
+		<div class="small-4 large-5 columns desktop-content"><ul class="right"><li><a data-scroll href="#about">About Us</a></li><li><a data-scroll href="#samples">Samples</a></li></ul></div>
+		<div class="small-12 medium-12 large-2 columns logo"><img src="assets/images/logo.svg"/></div>
+		<div class="small-4 large-5 columns desktop-content"><ul class="left"><li><a data-scroll href="#gallery">Gallery</a></li><li><a data-scroll href="#contact">Contact Us</a></li></ul></div>
+	</div>
+</div>
+
+		<div id="body">
+			<div class="desktop-content">
+	<div class="row full-width index-large-image"></div>
+</div>
+<div class="mobile-content">
+	<div class="row full-width index-large-image-mob"></div>
+</div>
+
+
+<div class="row index-about topbottompadding" id="about">
+	<div class="row rowpadding">
+		<div class="small-12 medium-12 large-12 columns">
+			<div class="hello">
+				<img src="assets/images/hello_roundel.svg"/>
+			</div>
+			<h1>CLEMENTINE OLIVER WAS STARTED IN SPRING 2013 BY LIZ HARRIS. AN IDEA BROUGHT ON AFTER TAKING A BREAK FROM THE INTERIORS INDUSTRY FOR THE BIRTH OF HER CHILDREN, CLEMENTINE AND OLIVER.</h1>
+
+			<div class="mobile-content">
+				<div class="fullwidth-center">
+					<div class="link mob-about-slide">read more > </div>
+					<div class="link mob-about-slide-up">show less < </div>
+				</div>
+			</div>
+
+			<div class="row mobile-about about desktop-content">
+				<div class="small-12 large-6 columns">
+					<p>Liz has worked with fabrics since the late 1990’s during her time at Osborne & Little, Andrew Martin and Evitavonni. With the ever changing market, Clementine Oliver aims to offer a timeless and</p>
+				</div>
+				<div class="small-12 large-6 columns">
+					<p>classic range of <span class="orangetext">fabrics</span> with a fresh, modern and easy approach. A wide range of funky colours and classic muted shades of <span class="orangetext">wool flannels, satins</span> and <span class="orangetext">tweed, mixed</span> with <span class="orangetext">linen, velvet</span> and <span class="orangetext">faux suede</span>.</p>
+				</div>
+			</div>
+
+			<div class="mobile-content">
+				<div class="row mobile-about about-combined about">
+					<div class="small-12 columns">
+						<p>Liz has worked with fabrics since the late 1990’s during her time at Osborne & Little, Andrew Martin and Evitavonni. With the ever changing market, Clementine Oliver aims to offer a timeless and classic range of <span class="orangetext">fabrics</span> with a fresh, modern and easy approach. A wide range of funky colours and classic muted shades of <span class="orangetext">wool flannels, satins</span> and <span class="orangetext">tweed, mixed</span> with <span class="orangetext">linen, velvet</span> and <span class="orangetext">faux suede</span>.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="index-samples topbottompadding" id="samples">
+	<div class="row">
+		<div class="small-12 medium-12 large-6 columns sample">
+			<img src="assets/images/clementine_oliver_box_still_life.png"/>
+		</div>
+		<div class="small-12 medium-12 large-6 columns">
+			<div class="desktop-content">
+				<h1>THE CLEMENTINE SAMPLE BOX</h1>
+				<p>All sampling is free and comes in our zingy Clementine Box. Designed to be compact and very easy to use, no need to take up valuable space in your office. You can just keep it on your desk.</p>
+
+				<p>As new products and colours are launched we will send them over for you to add to the mix. To order a Clementine Box with the full range of samples please get in touch via the link below</p>
+
+				<a href="mailto:liz@clementineoliver.com?subject=Hello"><div class="orangebutton">GET IN TOUCH</div></a>
+			</div>
+			<div class="mobile-content">
+				<a href="mailto:liz@clementineoliver.com?subject=Hi, I would like to request a free sample box"><div class="orangebutton">REQUEST A SAMPLE BOX</div></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="index-gallery "  id="gallery">
+	<div class="gallery">
+		<div class="lines"></div>
+		<div class="gallery-image">
+			<img src="assets/images/gallery.svg"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 large-12 columns images">
+			<div id="freewall">
+				<div class="mobile-content">
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/clementine_oliver_by_buttercupphotography_1.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/clementine_oliver_by_buttercupphotography_1.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/clementine_oliver_by_buttercupphotography_2.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/clementine_oliver_by_buttercupphotography_2.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/clementine_oliver_by_buttercupphotography_3.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/clementine_oliver_by_buttercupphotography_3.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/clementine_oliver_by_buttercupphotography_4.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/clementine_oliver_by_buttercupphotography_4.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/clementine_oliver_by_buttercupphotography_5.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/clementine_oliver_by_buttercupphotography_5.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/clementine_oliver_by_buttercupphotography_6.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/clementine_oliver_by_buttercupphotography_6.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/clementine_oliver_by_buttercupphotography_7.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/clementine_oliver_by_buttercupphotography_7.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/clementine_oliver_by_buttercupphotography_8.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/clementine_oliver_by_buttercupphotography_8.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/clementine_oliver_by_buttercupphotography_9.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/clementine_oliver_by_buttercupphotography_9.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/clementine_oliver_by_buttercupphotography_10.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/clementine_oliver_by_buttercupphotography_10.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/clementine_oliver_by_buttercupphotography_11.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/clementine_oliver_by_buttercupphotography_11.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/mobile/clementine_oliver_by_buttercupphotography_12.jpg" data-lightbox="image-1"><img src="assets/images/mobile/thumbs/clementine_oliver_by_buttercupphotography_12.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+				</div>
+
+				<div class="desktop-content">
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/clementine_oliver_by_buttercupphotography_1.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/clementine_oliver_by_buttercupphotography_1.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/clementine_oliver_by_buttercupphotography_2.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/clementine_oliver_by_buttercupphotography_2.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/clementine_oliver_by_buttercupphotography_3.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/clementine_oliver_by_buttercupphotography_3.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/clementine_oliver_by_buttercupphotography_4.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/clementine_oliver_by_buttercupphotography_4.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/clementine_oliver_by_buttercupphotography_5.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/clementine_oliver_by_buttercupphotography_5.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/clementine_oliver_by_buttercupphotography_6.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/clementine_oliver_by_buttercupphotography_6.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/clementine_oliver_by_buttercupphotography_7.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/clementine_oliver_by_buttercupphotography_7.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/clementine_oliver_by_buttercupphotography_8.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/clementine_oliver_by_buttercupphotography_8.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/clementine_oliver_by_buttercupphotography_9.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/clementine_oliver_by_buttercupphotography_9.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/clementine_oliver_by_buttercupphotography_10.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/clementine_oliver_by_buttercupphotography_10.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/clementine_oliver_by_buttercupphotography_11.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/clementine_oliver_by_buttercupphotography_11.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+						<article>
+			            	<div class="block">
+			            		<div class="entry-content">
+			                    	<a href="assets/images/clementine_oliver_by_buttercupphotography_12.jpg" data-lightbox="image-1"><img src="assets/images/thumbs/clementine_oliver_by_buttercupphotography_12.jpg"/></a>
+			                	</div>
+			                </div>
+			            </article>
+					
+				</div>
+
+			 </div>
+		</div>
+	</div>
+	<div class="orange">
+		<div class="lines"></div>
+		<div class="orange-image">
+			<img src="assets/images/clementine.svg"/>
+		</div>
+	</div>
+</div>
+
+<div class="index-contact topbottompadding" id="contact">
+	<div class="row">
+		<div class="small-12  large-6 columns desktop-content">
+			<h2>CLEMENTINE OLIVER</h2>
+				<p>With the ever changing market, Clementine Oliver aims to offer a timeless and classic range of fabrics with a fresh, modern and easy approach. A wide range of funky colours and classic muted shades of wool flannels, satins and tweed, mixed with linen, velvet and faux suede.</p>
+		</div>
+
+		<div class="small-12 medium-12 large-4 columns">
+			<h2>CONTACT</h2>
+				<a href="tel:7974 193663"><p>T: + 44 (0) 7974 193663</p></a>
+				<a href="mailto:liz@clementineoliver.com"><p>E: liz@clementineoliver.com</p></a>
+		</div>
+
+		<div class="small-12 medium-12 large-2 columns toppadding">
+			<h2>SOCIAL</h2>
+				<a href="https://twitter.com/Clementineolvr" target="blank"><p>Twitter</p></a>
+				<a href="http://instagram.com/clementineoliver" target="blank"><p>Instagram</p></a>
+		</div>
+
+	</div>
+</div>
+		</div>
+		<div class="footer">
+	<div class="row">
+		<div class="large-12 columns desktop-content">
+			<p>Copyright © 2014 Clementine Oliver <span>|</span> Website : <a href="http://www.fst-uk.com">fst-uk.com</a> <span>|</span> Photography by <a href="http://www.buttercupphotography.co.uk">buttercupphotography.co.uk</a></p>
+			<p>Company Registration Number: 08450072  <span> </span>VAT : GB161846596 </p>
+		</div>
+		<div class="small-12 medium-12 columns mobile-content">
+			<p>Copyright © 2014 Clementine Oliver </p><p> Website : <a href="http://www.fst-uk.com">fst-uk.com</a> </p><p> Photography by <a href="http://www.buttercupphotography.co.uk">buttercupphotography.co.uk</a></p><p>Registration Number: 08450072</p><p>VAT : GB161846596
+		</div>
+	</div>
+</div>
+	</body>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-89721534-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	
+</html>
